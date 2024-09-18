@@ -1,0 +1,29 @@
+
+.news-div{
+    margin: 40px 116px;
+    .news-h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        
+    }
+    .news-sections{
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        .news-section{
+            
+        }
+        .news-section-text1{
+            font-size: 13px;
+            color: rgba(145, 147, 153, 1);
+            margin-top: 24px;
+        }
+        .news-section-text2{
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(44, 45, 46, 1);
+            
+        }
+    }
+}

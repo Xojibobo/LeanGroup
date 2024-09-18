@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 116px;
+    box-shadow: 0 4px 32px rgba(0, 16, 61, 0.16);
+    
+
+    ul{
+        display: flex;
+        li span{
+            
+            padding: 0 16px;
+            font-size: 16px;
+            border-right: 1px solid rgba(0, 16, 61, 0.12);
+            cursor: pointer;
+        }
+        li{
+            list-style-type: none;
+        }
+        
+        .header-li{
+            border-right: none;
+        }
+        
+    }
+    .light-icon{
+        cursor: pointer;
+    }
+    ul{
+        li span:hover{
+            color: rgba(239, 124, 0, 1);
+            transition: 0.3s;
+        }
+        .header-li-div {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            
+          }
+          
+          .header-li-div-p {
+            padding: 8px 16px;
+            cursor: pointer;
+          }
+          
+          .header-li-div-p:hover {
+            background-color: #f1f1f1;
+          }
+          
+          /* Agar ochilsa, div ko'rsatiladi */
+          li:hover .header-li-div {
+            display: block;
+          }
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+    .light-icons{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 968px) {
+    header{
+        .hamburger-menu{
+            display: block;
+            margin-left: 10px;
+        }
+        ul{
+            display: none;
+        }
+    }
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
