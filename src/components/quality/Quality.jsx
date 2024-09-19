@@ -48,7 +48,7 @@ function Quality() {
                     <Slider {...settings}>
                         {quality.map((e, index) => (
                             <div key={index}>
-                                <img src={e.img} alt="Quality Image" />
+                                <img src={e.img} alt="QualityImage" />
                             </div>
                         ))}
                     </Slider>
