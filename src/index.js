@@ -9,6 +9,7 @@ import './components/footer/Footer.scss'
 import './components/header/Header.scss'
 import './components/button/Button.scss'
 import './components/about/About.scss'
+import './components/quality/Quality.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

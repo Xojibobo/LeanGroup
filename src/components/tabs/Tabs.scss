@@ -1,0 +1,39 @@
+.Tabs-section{
+.row{
+    h1{
+        margin: 40px auto;
+        display: flex;
+justify-content: center;
+span{
+    color: rgba(239, 124, 0, 1);
+    margin-left: 12px;
+}
+    }
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    button{
+        padding: 12px 20px;
+        margin-right: 44px;
+        border: 1px solid rgba(239, 124, 0, 1);
+        color: rgba(239, 124, 0, 1);
+        background-color: transparent;
+        border-radius: 60px;
+
+
+    }
+    button:hover{
+        color: white;
+        background-color: rgba(239, 124, 0, 1);
+    }
+}
+#img-div{
+    display: none;
+}
+#button2{
+    color: white;
+    background-color: rgba(239, 124, 0, 1);
+}
+}

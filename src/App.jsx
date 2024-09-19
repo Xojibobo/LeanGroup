@@ -6,6 +6,8 @@ import Header from './components/header/Header';
 import News from './components/news/News';
 import HeaderSlider from './components/heading-slider/HeadingSlider';
 import About from './components/about/About';
+import Quality from './components/quality/Quality';
+import Tabs from './components/tabs/Tabs';
 
 function App() {
 
@@ -15,7 +17,10 @@ function App() {
       <Header />
       <HeaderSlider />
       <About />
+      <Quality />
+      <Tabs />
       <News />
+
       <Footer />
     </Fragment>
   );
